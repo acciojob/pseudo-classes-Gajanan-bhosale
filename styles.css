@@ -11,46 +11,25 @@ p:first-child {
 }
 
 p:nth-child(2) {
-	color: black
+	color: inherit;
 }
 
 p:last-child {
 	color: red
 }
 
-
-li:first-child {
-	background-color: white;
-	font-size: 22px;
-	padding: 10px
-}
-
-ul {
-	width: 50%
-}
-
-li:nth-child(2) {
+li {
 	background-color: gray;
-	font-size: 20px;
+	width: 50%;
 	padding: 10px
 }
 
-li:nth-child(3) {
-	background-color: pink;
-	font-size: 18px;
-	padding: 10px
+li:nth-child(odd) {
+	background-color: white
 }
 
-li:nth-child(4) {
-	background-color: gray;
-	font-size: 20px;
-	padding: 10px
-}
-
+li:first-child,
 li:last-child {
-	background-color: white;
-	font-size: 22px;
-	padding: 10px
+	font-size: 22px
 }
-
 
