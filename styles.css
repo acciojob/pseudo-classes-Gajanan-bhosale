@@ -21,12 +21,12 @@ p:last-child {
 
 li:first-child {
 	background-color: white;
-	font-size: 25px;
+	font-size: 22px;
 	padding: 10px
 }
 
 ul {
-	width: 60%
+	width: 50%
 }
 
 li:nth-child(2) {
@@ -49,7 +49,7 @@ li:nth-child(4) {
 
 li:last-child {
 	background-color: white;
-	font-size: 25px;
+	font-size: 22px;
 	padding: 10px
 }
 
